@@ -26,4 +26,5 @@ while True :
     chat_history.append(AIMessage(result.content))
     print("AI: ",result.content)
 
+#print(chat_history)
 print(chat_history)
